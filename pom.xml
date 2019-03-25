@@ -149,5 +149,10 @@
             </plugin>
         </plugins>
     </build>
-
+	<developers>
+		<developer>
+			<name>Lilian Kotvan</name>
+			<email>liliankotvan@gmail.com</email>
+		</developer>
+	</developers>
 </project>
