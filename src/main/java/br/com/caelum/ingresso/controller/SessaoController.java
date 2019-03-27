@@ -63,6 +63,8 @@ public class SessaoController {
 			return new ModelAndView("redirect:/admin/sala/" + form.getSalaId() + "/sessoes");
 
 		}
+		result.rejectValue("horario", null, "Conflito de horários");
+		form.setHorario(null);
 		return form(form.getSalaId(), form);
 	}
 
